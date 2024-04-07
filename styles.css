@@ -109,6 +109,7 @@ h1 {
     gap: 20px;
     height: 75vh;
     width: 100vw;
+    padding: 20px;
     background-color: var(--grey);
     color: var(--primary);
 }
