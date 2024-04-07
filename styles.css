@@ -25,7 +25,7 @@ body {
     width: 100vw;
     background-color: var(--primary);
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 1rem;
     border-bottom: 1px solid var(--secondary);
 }
 
@@ -66,6 +66,8 @@ body {
 .title {
     color: var(--white);
     font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    padding: 20%;
 }
 
 .subtitle {
@@ -82,4 +84,11 @@ body {
     height: 75vh;
     width: 100vw;
     background-color: var(--white);
+}
+
+@media only screen and (min-width: 483px) {
+    #navbar {
+        font-size: 1.5rem;
+        padding: 0;
+    }
 }
