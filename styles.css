@@ -139,6 +139,47 @@ h1 {
 #skills > ul > div > li {
     padding-bottom: 20px;
 }
+
+#contacts {
+    background-color: var(--primary);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts h1 {
+    padding: 20px 0;
+    font-size: 5rem;
+}
+
+#contacts .question {
+    color: var(--tertiary);
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#contacts .social-medias {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+#contacts .social-media {
+    text-decoration: none !important;
+    color: var(--base-100);
+    transition: transform 0.2 ease-in;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 1.8rem;
+}
+
+#contacts .social-media:hover {
+    transform: translateY(10px);
+}
+
 footer {
     border-top: 3px solid var(--tertiary);
     background-color: var(--primary);
