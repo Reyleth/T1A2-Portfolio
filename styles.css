@@ -21,6 +21,10 @@ h1 {
     font-family: "Poppins", sans-serif;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 #navbar {
     display: flex;
     justify-content: center;
