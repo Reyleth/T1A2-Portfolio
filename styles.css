@@ -106,6 +106,15 @@ h1 {
     background-color: var(--white);
 }
 
+#about > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
 #skills {
     display: flex;
     flex-direction: column;
@@ -139,6 +148,14 @@ h1 {
     .title {
         padding: 20% 0;
     }
+}
+
+footer {
+    border-top: 3px solid var(--tertiary);
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 25px;
+    padding: 30px;
 }
 
 @media only screen and (min-width: 483px) {
