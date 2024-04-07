@@ -1,5 +1,5 @@
 :root {
-    --primary: #000000;
+    --primary: #0f0e17;
     --secondary: #14213D;
     --tertiary: #FCA311;
     --grey: #E5E5E5;
@@ -19,12 +19,34 @@ body {
 
 #navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: fixed;
     top: 0;
     width: 100vw;
     background-color: var(--secondary);
     padding: 20px 0;
     font-size: 20px;
-    border-bottom: 1px solid var(--grey);
+    border-bottom: 1px solid var(--primary);
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-links li {
+    flex-grow: 1;
+    width: auto;
+}
+
+#nav-links li a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: var(--white);
+    text-align: center;
+}
+
+#nav-links li a:hover {
+    text-decoration: underline;
 }
