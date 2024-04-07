@@ -118,18 +118,17 @@ h1 {
 #skills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 20px;
     height: 75vh;
     width: 100vw;
-    padding: 20px;
+    padding: 10vw;
     background-color: var(--grey);
     color: var(--primary);
 }
 
 #skills ul {
-    width: 75%;
+    width: 90%;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -137,6 +136,9 @@ h1 {
     font-size: 1.5rem;
 }
 
+#skills > ul > div > li {
+    padding-bottom: 20px;
+}
 footer {
     border-top: 3px solid var(--tertiary);
     background-color: var(--primary);
@@ -167,6 +169,9 @@ footer {
     }
     .title {
         padding: 20% 0;
+    }
+    #skills ul {
+        flex-direction: column;
     }
 }
 
