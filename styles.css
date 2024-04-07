@@ -98,6 +98,24 @@ body {
     background-color: var(--white);
 }
 
+@media only screen and (max-width: 482px) {
+    #navbar {
+        font-size: 1rem;
+        padding: 20px 0;
+    }
+    #hero {
+        flex-direction: column;
+        padding-bottom: 20px;
+        
+    }
+    #hero > div {
+        padding-bottom: 10vw;
+    }
+    .title {
+        padding: 20% 0;
+    }
+}
+
 @media only screen and (min-width: 483px) {
     #navbar {
         font-size: 1.5rem;
