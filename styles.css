@@ -16,3 +16,15 @@ body {
     font-family: "Noto Serif", sans-serif;
     text-align: center;
 }
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: var(--secondary);
+    padding: 20px 0;
+    font-size: 20px;
+    border-bottom: 1px solid var(--grey);
+}
