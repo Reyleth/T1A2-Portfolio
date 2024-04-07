@@ -5,3 +5,9 @@
     --grey: #E5E5E5;
     --white: #FFFFFF;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
