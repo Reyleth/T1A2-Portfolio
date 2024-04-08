@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -187,8 +188,17 @@ footer {
     font-size: 25px;
     padding: 30px;
 }
-
+@media only screen and (width < 481px) {
+    .profile-pic {
+        width: 0;
+        height: 0;
+    }
+}
+    
 @media only screen and (max-width: 482px) {
+    body {
+        overflow-x: hidden;
+    }
     #navbar {
         font-size: 1rem;
         padding: 20px 0;
@@ -212,6 +222,12 @@ footer {
         padding: 20% 0;
     }
     #skills ul {
+        flex-direction: column;
+    }
+    #contacts h1 {
+        font-size: 3rem;
+    }
+    #contacts .social-medias {
         flex-direction: column;
     }
 }
