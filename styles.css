@@ -163,6 +163,32 @@ h1, h3 {
 
 }
 
+.top-padding {
+    padding-top: 5vw;
+}
+
+.see-more {
+    text-decoration: none;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 3vw 3vw;
+    background-color: var(--secondary);
+    color: var(--tertiary);
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+
+}
+
+.show-all:hover {
+    background-color: var(--primary);
+    color: var(--white);
+    
+}
+
 #contacts {
     background-color: var(--primary);
     color: var(--white);
