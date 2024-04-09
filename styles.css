@@ -174,7 +174,7 @@ h1, h3 {
     align-items: center;
     gap: 10px;
     margin: auto;
-    padding: 3vw 3vw;
+    padding: 10px 10px;
     background-color: var(--secondary);
     color: var(--tertiary);
     font-size: 1.5rem;
@@ -184,7 +184,7 @@ h1, h3 {
 
 }
 
-.show-all:hover {
+.see-more:hover {
     background-color: var(--primary);
     color: var(--white);
     
