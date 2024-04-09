@@ -129,6 +129,10 @@ h1, h3 {
     color: var(--primary);
 }
 
+.skills-title {
+    font-size: 3rem;
+}
+
 #seperator {
     padding: 10vw;
     border-bottom: 1px solid var(--primary);
@@ -144,7 +148,8 @@ h1, h3 {
     font-size: 1.5rem;
 }
 
-#skills > ul > div > li {
+.lang {
+    font-weight: bold;
     padding-bottom: 20px;
     font-family: "Poppins", sans-serif;
 }
@@ -237,9 +242,13 @@ footer {
     }
     #skills ul {
         flex-direction: column;
+        gap: 20px;
     }
-    #skills ul div li {
-        padding: 10vw 0 0 0;
+    .icon {
+        width: 75vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
     }
     #contacts h1 {
         font-size: 3rem;
@@ -256,5 +265,8 @@ footer {
     }
     .title {
         padding: 10% 0;
+    }
+    .lang {
+        padding: 5vw 0;
     }
 }
