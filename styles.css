@@ -18,7 +18,7 @@ body {
     text-align: center;
 }
 
-h1 {
+h1, h3 {
     font-family: "Poppins", sans-serif;
 }
 
@@ -129,6 +129,12 @@ h1 {
     color: var(--primary);
 }
 
+#seperator {
+    padding: 10vw;
+    border-bottom: 1px solid var(--primary);
+    width: 100vw;
+}
+
 #skills ul {
     width: 90%;
     list-style: none;
@@ -233,7 +239,7 @@ footer {
         flex-direction: column;
     }
     #skills ul div li {
-        padding-bottom: 0;
+        padding: 10vw 0 0 0;
     }
     #contacts h1 {
         font-size: 3rem;
