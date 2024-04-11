@@ -294,6 +294,10 @@ h1, h3 {
     object-fit: cover;
 }
 
+.resume-content p {
+    padding-bottom: 5vw;
+}
+
 #contacts {
     background-color: var(--primary);
     color: var(--white);
@@ -400,5 +404,19 @@ footer {
     }
     .lang {
         padding: 5vw 0;
+    }
+
+    .resume-content {
+        flex-direction: row;
+    }
+
+    #resume-preview {
+        width: 50%;
+        height: 50%;
+    }
+
+    .tablet-column {
+        width: 50%;
+        flex-direction: column;
     }
 }
