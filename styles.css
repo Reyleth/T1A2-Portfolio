@@ -285,7 +285,7 @@ h1, h3 {
     width: 100vw;
     background-color: var(--white);
     color: var(--primary);
-
+    padding: 10vw 0;
 }
 
 #resume-preview {
