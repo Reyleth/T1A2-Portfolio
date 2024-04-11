@@ -298,6 +298,12 @@ h1, h3 {
     padding-bottom: 5vw;
 }
 
+#blogs {
+    background-color: var(--grey);
+    color: var(--primary);
+    padding: 5vw;
+}
+
 #contacts {
     background-color: var(--primary);
     color: var(--white);
