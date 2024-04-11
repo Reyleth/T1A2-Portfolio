@@ -238,7 +238,7 @@ h1, h3 {
     margin: auto;
 }
 
-#projects .project-tile {
+#projects .link-tile {
     min-height: 525px;
     width: 100%;
     display: flex;
@@ -253,23 +253,23 @@ h1, h3 {
 
 }
 
-#projects .project-tile img {
+#projects .link-tile img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 } 
 
-#projects .project-tile p {
+#projects .link-tile p {
     font-size: 1.5rem;
     padding: 10px;
 }
 
-#projects .project-tile span {
+#projects .link-tile span {
      opacity: 0%;
      padding: 0 5px;
 }
 
-#projects .project-tile:hover span {
+#projects .link-tile:hover span {
     opacity: 100%;
     color: var(--primary);
     transition: opacity 0.25s ease-in;
