@@ -228,7 +228,7 @@ h1, h3 {
     margin: auto;
 }
 
-#projects .projects {
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
@@ -238,7 +238,7 @@ h1, h3 {
     margin: auto;
 }
 
-#projects .link-tile {
+.link-tile {
     min-height: 525px;
     width: 100%;
     display: flex;
@@ -253,23 +253,23 @@ h1, h3 {
 
 }
 
-#projects .link-tile img {
+.link-tile img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 } 
 
-#projects .link-tile p {
+.link-tile p {
     font-size: 1.5rem;
     padding: 10px;
 }
 
-#projects .link-tile span {
+.link-tile span {
      opacity: 0%;
      padding: 0 5px;
 }
 
-#projects .link-tile:hover span {
+.link-tile:hover span {
     opacity: 100%;
     color: var(--primary);
     transition: opacity 0.25s ease-in;
