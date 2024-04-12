@@ -219,7 +219,7 @@ h1, h3 {
 .content {
     background-color: var(--grey);
     color: var(--neutral);
-    padding: 25vw 0 5vw 0;
+    padding: 100px 0 5vw 0;
 }
 
 #projects h1 {
@@ -241,13 +241,14 @@ h1, h3 {
 .link-tile {
     min-height: 525px;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--white);
+    background-color: var(--primary);
     text-decoration: none;
-    color: var(--primary);
+    color: var(--white);
     border-radius: 5px;
     box-shadow: 8px 8px 10px 5px rgba(100, 100, 100, 0.3);
 
@@ -271,7 +272,7 @@ h1, h3 {
 
 .link-tile:hover span {
     opacity: 100%;
-    color: var(--primary);
+    color: var(--tertiary);
     transition: opacity 0.25s ease-in;
 }
 
