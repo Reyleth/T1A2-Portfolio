@@ -336,7 +336,7 @@ h1, h3 {
     justify-content: space-around;
     margin: 20px auto;
 }
-
+/* transform links on hover for modern look */
 #contacts .social-media {
     text-decoration: none !important;
     color: var(--base-100);
