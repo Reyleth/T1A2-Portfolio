@@ -309,6 +309,13 @@ h1, h3 {
     color: var(--primary);
     padding: 5vw;
 }
+
+.blog-image {
+    width: 100%;
+    padding: 20px;
+    max-height: 25vw;
+    object-fit: cover;
+}
 /* contact section styling */
 #contacts {
     background-color: var(--primary);
