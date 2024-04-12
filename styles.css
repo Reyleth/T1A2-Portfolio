@@ -312,9 +312,14 @@ h1, h3 {
 
 .blog-image {
     width: 100%;
+    max-width: 1000px;
     padding: 20px;
-    max-height: 25vw;
+    height: 20vw;
     object-fit: cover;
+}
+
+article > p {
+    padding: 20px;
 }
 /* contact section styling */
 #contacts {
