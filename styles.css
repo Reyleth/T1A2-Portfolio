@@ -418,7 +418,7 @@ footer {
     }
 }
 /* tablet styling */
-@media only screen and (min-width: 483px) {
+@media only screen and (min-width: 483px) and (max-width: 1023px) {
     #navbar {
         font-size: 1.5rem;
         padding: 30px 0;
@@ -445,3 +445,8 @@ footer {
     }
 }
 /* desktop styling */
+@media only screen and (min-width: 1024px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
