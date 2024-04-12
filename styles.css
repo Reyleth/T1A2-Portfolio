@@ -1,3 +1,4 @@
+/* initiate root colour palette */
 :root {
     --primary: #0f0e17;
     --secondary: #14213D;
@@ -5,23 +6,23 @@
     --grey: #E5E5E5;
     --white: #FFFFFF;
 }
-
+/* reset default values */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+/* assign document wide font */
 body {
     font-family: "Noto Serif", sans-serif;
     text-align: center;
 }
-
+/* assign heading font */
 h1, h3 {
     font-family: "Poppins", sans-serif;
 }
-
+/* class styles */
 .underline {
     text-decoration: underline;
 }
@@ -34,6 +35,19 @@ h1, h3 {
     font-size: 5rem;
 }
 
+.row-flex {
+    flex-direction: row;
+}
+
+.column-flex {
+    flex-direction: column;
+}
+
+.top-padding {
+    padding-top: 5vw;
+}
+
+/* navbar styling */
 #navbar {
     display: flex;
     justify-content: center;
@@ -63,7 +77,7 @@ h1, h3 {
 #nav-links li a:hover {
     text-decoration: underline;
 }
-
+/* hero section styling */
 .hero {
     display: flex;
     justify-content: center;
@@ -73,14 +87,6 @@ h1, h3 {
     width: 100vw;
     background-color: var(--primary);
     padding-top: 80px;
-}
-
-.row-flex {
-    flex-direction: row;
-}
-
-.column-flex {
-    flex-direction: column;
 }
 
 .profile-pic {
@@ -111,7 +117,7 @@ h1, h3 {
     font-size: 1.5rem;
     padding-bottom: 20%;
 }
-
+/* about section styling */
 #about {
     display: flex;
     flex-direction: column;
@@ -131,7 +137,7 @@ h1, h3 {
     gap: 20px;
     padding: 0 20px;
 }
-
+/* skills section styling */
 #skills {
     display: flex;
     flex-direction: column;
@@ -155,7 +161,7 @@ h1, h3 {
 }
 
 #skills ul {
-    width: 90%;
+    width: 100%;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -181,7 +187,7 @@ h1, h3 {
 .top-padding {
     padding-top: 5vw;
 }
-
+/* button component, reused in different parts of document */
 .see-more {
     text-decoration: none;
     width: max-content;
@@ -215,13 +221,13 @@ h1, h3 {
 #github-graph {
     padding: 5vw;
 }
-
+/* subpage content styling */
 .content {
     background-color: var(--grey);
     color: var(--neutral);
     padding: 100px 0 5vw 0;
 }
-
+/* projects page styling */
 #projects h1 {
     border-bottom: 5px solid var(--primary);
     width: fit-content;
@@ -237,7 +243,7 @@ h1, h3 {
     max-width: 1200px;
     margin: auto;
 }
-
+/* Tiles design, used in projects and blogs */
 .link-tile {
     min-height: 525px;
     width: 100%;
@@ -275,7 +281,7 @@ h1, h3 {
     color: var(--tertiary);
     transition: opacity 0.25s ease-in;
 }
-
+/* resume styling */
 .resume-content {
     display: flex;
     flex-direction: column;
@@ -297,13 +303,13 @@ h1, h3 {
 .resume-content p {
     padding-bottom: 5vw;
 }
-
+/* blogs styling */
 #blogs {
     background-color: var(--grey);
     color: var(--primary);
     padding: 5vw;
 }
-
+/* contact section styling */
 #contacts {
     background-color: var(--primary);
     color: var(--white);
@@ -344,7 +350,7 @@ h1, h3 {
 #contacts .social-media:hover {
     transform: translateY(10px);
 }
-
+/* footer styling */
 footer {
     border-top: 3px solid var(--tertiary);
     background-color: var(--primary);
@@ -352,7 +358,7 @@ footer {
     font-size: 25px;
     padding: 30px;
 }
-    
+/* mobile specific styling */
 @media only screen and (max-width: 482px) {
     body {
         overflow-x: hidden;
@@ -399,7 +405,7 @@ footer {
         flex-direction: column;
     }
 }
-
+/* tablet styling */
 @media only screen and (min-width: 483px) {
     #navbar {
         font-size: 1.5rem;
@@ -426,3 +432,4 @@ footer {
         flex-direction: column;
     }
 }
+/* desktop styling */
