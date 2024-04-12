@@ -216,10 +216,10 @@ h1, h3 {
     padding: 5vw;
 }
 
-#projects {
+.content {
     background-color: var(--grey);
     color: var(--neutral);
-    padding-bottom: 5vw;
+    padding: 25vw 0 5vw 0;
 }
 
 #projects h1 {
@@ -283,7 +283,6 @@ h1, h3 {
     gap: 20px;
     min-height: 75vh;
     width: 100vw;
-    background-color: var(--white);
     color: var(--primary);
     padding: 10vw 0;
 }
