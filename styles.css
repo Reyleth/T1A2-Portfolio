@@ -291,7 +291,7 @@ h1, h3 {
     align-items: center;
     gap: 20px;
     min-height: 75vh;
-    width: 100vw;
+    width: 100%;
     color: var(--primary);
     padding: 10vw 0;
 }
@@ -317,6 +317,10 @@ h1, h3 {
     padding: 20px;
     height: 20vw;
     object-fit: cover;
+}
+
+.contain {
+    object-fit: contain !important;
 }
 
 article > p {
@@ -410,6 +414,10 @@ footer {
         display: flex;
         justify-content: space-between;
         gap: 20px;
+    }
+    #resume-preview {
+        width: 70%;
+        height: 70%;
     }
     #contacts h1 {
         font-size: 3rem;
