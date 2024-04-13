@@ -28,7 +28,7 @@ The wireframe and sitemap for this project was created on figma [click here to v
 
 ### Screenshots
 
-![Sitemap]{./docs/sitemap.png}
+![Sitemap](./docs/sitemap.png)
 
 ### Target Audience
 
