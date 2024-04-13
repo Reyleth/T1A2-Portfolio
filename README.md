@@ -22,13 +22,13 @@ The blog page also makes use of the "link tiles" I made and reuses the styling f
 
 Last but not least is the contacts section that is located on the bottom of every html page. The function of this part of the document is for any viewer that reachs the bottom of the page. It contains further links to my social media accounts such as Github, linkedin, Discord and my Email. The design accounts for all screen sizes by using a flex layout and has a transform hover effect for a nice touch.
 
-### Screenshots
-
-<!-- screenshots to be added to the docs/ directory and linked here with captions -->
-
 ### Sitemap
 
 The wireframe and sitemap for this project was created on figma [click here to view figma page](https://www.figma.com/file/rZXdfGsApolNkm1b2iYUX0/Portfolio-Wireframe?type=whiteboard&node-id=0%3A1&t=HzAj9ajFPSizoi3d-1) a local copy of the sitemap is also linked <!-- insert link here -->
+
+### Screenshots
+
+![Sitemap]{./docs/sitemap.png}
 
 ### Target Audience
 
