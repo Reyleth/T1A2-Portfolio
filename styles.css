@@ -311,6 +311,10 @@ h1, h3 {
     color: var(--primary);
 }
 
+.blog-post {
+    padding-top: 20vh;
+}
+
 .blog-image {
     width: 100%;
     max-width: 1000px;
