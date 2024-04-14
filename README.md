@@ -6,11 +6,11 @@ All material learnt throughtout weeks 1 and 2 of Coder Academy have been applied
 
 ## Purpose
 
-The purpose of this portfolio is to represent myself as a aspiring software developer in a professional manner. The layout has been designed with simplicity and professionalism in mind.
+The purpose of this portfolio is to represent myself as an aspiring software developer in a professional manner. The layout has been designed with simplicity and professionalism in mind.
 
 ## Target Audience
 
-The target audience of this project is to prospective employers and anyone who is looking for a like minded individual to collaborate with. I created the sitemap and wireframe with this in mind and designed the portfolio in a way to be visually pleasing to anyone looking to employ or collaborate with me.
+The target audience of this project is prospective employers and anyone who is looking for a like minded individual to collaborate with. I created the sitemap and wireframe with this in mind and designed the portfolio in a way to be visually pleasing to anyone looking to employ or collaborate with me.
 
 ## Tech Stack
 
@@ -40,7 +40,7 @@ I decided to keep a consistant style across all pages of my portfolio. The colou
 
 The basis of the website revolves around the basic layout of the home page. Each page would include a nav bar and contacts section at the bottom. The main content would be divided by background colour changes as the viewer scrolled.
 
-Unique to the home page would be the about me section and the skills section. I gave myself a rough overview of how I wanted these sections to look in conjunction with eachother. In the mobile version I wanted the logos in the skills section to be become a flex column.
+Unique to the home page would be the about me section and the skills section. I gave myself a rough overview of how I wanted these sections to look in conjunction with each other. In the mobile version I wanted the logos in the skills section to be become a flex column.
 
 ### Projects Page
 
@@ -68,9 +68,9 @@ The individual pages were designed to be simple to read on all viewports. A simp
 
 ## Website Overview & Features
 
-This document was designied with 3 main viewport width breakpoints in mind. Mobile, Tablet and Desktop. Each viewport type has some unique styling to accomodate. This portfolio contains four main pages and five blogs. For the overall font I decided to use "Noto Serif" for the content and "Poppins" for the headings because they seemed to match my design goal. I sourced these fonts from <https://fonts.google.com/>.
+This document was designied with three main viewport width breakpoints in mind. Mobile, Tablet and Desktop. Each viewport type has some unique styling to accomodate. This portfolio contains four main pages and five blogs. For the overall font I decided to use "Noto Serif" for the content and "Poppins" for the headings because they seemed to match my design goal. I sourced these fonts from <https://fonts.google.com/>.
 
-### Nav
+### Nav Component
 
 ![Navbar image](./docs/imgs/navbar_image.png)
 
@@ -80,7 +80,7 @@ The navbar is designed to be simple and sleek. Using a `display: sticky` to stay
 
 ![Hero image](./docs/imgs/hero_image.png)
 
-The home page is used as an overview displaying a large "hero section" as soon as it is loaded that jumps to the chase and introduces myself with an image, my name and who I am. I designed this to be simple yet bold and stand out to viewers entering the page. On mobile devices the profile picture will dissapear to give more space for the text to be prominent. 
+The home page is used as an overview displaying a large "hero section" component as soon as it is loaded that jumps to the chase and introduces myself with an image, my name and who I am. I designed this to be simple yet bold and stand out to viewers entering the page. On mobile devices the profile picture will dissapear to give more space for the text to be prominent. 
 
 ![About Me image](./docs/imgs/about_me_image.png)
 
@@ -88,13 +88,13 @@ Following the hero section the about me section that serves as a more thorough i
 
 ![Skills icon image](./docs/imgs/skill_icon_image.png)
 
-The About Me section is followed by a skills section that shows the coding languages I am knowledgable in and brief paragraphs on my hard and soft skills. 
+The About Me section is followed by a skills section that shows the coding languages I am knowledgeable in and brief paragraphs on my hard and soft skills. 
 
 First is the languages I am knowledgeble in displayed in icons sourced from <https://fontawesome.com/>. I choose these because they match with the simple design I was going for.
 
 ![First skills paragraph](./docs/imgs/skill_paragraph_1.png)
 
-Secondly I put a paragraph about my skills following by a link to my github if a potential viewer were to be interested further. An API to my Github graph is used to interest viewers and also give attention to the document. 
+Secondly I put a paragraph about my skills following by a link to my GitHub account if a potential viewer were to be interested further. An API to my GitHub graph is used to interest viewers and also give attention to the document. 
 
 ![Second skills paragraph](./docs/imgs/skill_paragraph_2.png)
 
@@ -104,13 +104,13 @@ For the last paragraph I also added in links to my linkedin account and my linke
 
 ![Projects Page image](./docs/imgs/project_page_image.png)
 
-The projects page shows an overview of my completed projects thus far. The main feature of this page are the "link tiles" that each contain links to real Github pages on my Github account. The CSS grid layout is used to space out the tiles and a hover effect is used on the text for character and to stand out. The "Show All" button directs the viewer to my full list of Github repos on Github but may include a seperate html page for this purpose in future updates.
+The projects page shows an overview of my completed projects thus far. The main feature of this page are the "link tiles" component that each contain links to real Github pages on my Github account. The CSS grid layout is used to space out the tiles and a hover effect is used on the text for character and to stand out. The "Show All" button directs the viewer to my full list of GitHub repos on GitHub but may include a seperate html page for this purpose in future updates.
 
 ### Resume
 
 ![Resume page image](./docs/imgs/resume_page_image.png)
 
-The resume page is used as a way for the viewer to access my up to date resume. I intend for the design to be quite simplistic with the preview image of the document displayed on the left side with the link on the right. I reused the button from the previous page and repurposed it as a download link that will source my resume.pdf and download it through the viewer's browser.
+The resume page is used as a way for the viewer to access my up to date resume. I intend for the design to be quite simplistic with the preview image of the document displayed on the left side with the link on the right. I reused the button from the previous page and repurposed it as a download link that will source my `resume.pdf` and download it through the viewer's browser.
 
 ![Work Experience image](./docs/imgs/work_experience_image.png)
 
@@ -120,7 +120,7 @@ Short but sweet work experience section is added below in a simple `<ul>` format
 
 ![Blogs page image](./docs/imgs/blogs_page_image.png)
 
-The blog page also makes use of the "link tiles" I made and reuses the styling from the projects portion. Similarly to the projects page a CSS grid layout is used to show each blog post simply with a title and date posted. Each of these blog links connect to a deeper html file that displays the full blog with an image in each for viewer engagement. Currently this is all done through static webpages however in a future update I would like to add Javascript to make the blogs dynamic and gain the ability to add new blogs to the page.
+The blog page also makes use of the "link tiles" I made and reuses the styling from the projects portion. Similarly to the projects page a CSS grid layout is used to show each blog post simply with a title and date posted. Each of these blog links connect to a deeper html file that displays the full blog with an image in each for viewer engagement. Currently this is all done through static webpages however in a future update I would like to add JavaScript to make the blogs dynamic and gain the ability to add new blogs to the page.
 
 ### Individual Blog Posts
 
@@ -136,9 +136,9 @@ Last but not least is the contacts section that is located on the bottom of ever
 
 ## Mobile, Tablet & Desktop Responsiveness
 
-This portfolio was made to be to relative scale so that most elements will adjust no matter the screensize. However as slight adjustments needed to be made in the CSS for my portfolio I implemented multiple media queries to set specific parameters to properties.
+This portfolio was made to be of relative scale so that most elements will adjust no matter the screensize. However as slight adjustments needed to be made in the CSS for my portfolio I implemented multiple media queries to set specific parameters to properties.
 
-### Mobile Settings:
+### Mobile Settings
 
 - Reduce navbar size to account for smaller screen
 - Remove profile picture
@@ -148,17 +148,17 @@ This portfolio was made to be to relative scale so that most elements will adjus
 - Reduce the size of the resume preview
 - Change the contacts flexbox into a column direction
 
-### Tablet Settings:
+### Tablet Settings
 
 - Navbar size increased
 - Padding adjusted
-- Resume page content is set to a row flex direction to display preview of the left
+- Resume page content is set to a row flex direction to display the resume preview on the left
 
-### Desktop Settings:
+### Desktop Settings
 
 - Navbar sized increased
 - paragraph text increased 
 
 ## Future Updates
 
-In the future I would like to add Javascript functionality to the blogs section and have the ability to create new blog posts all from within the website. I have no currently ETA on when I will implement this.
+In the future I would like to add JavaScript functionality to the blogs section and have the ability to create new blog posts all from within the website. I have no current ETA on when I will implement this.
