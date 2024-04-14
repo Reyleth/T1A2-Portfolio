@@ -18,7 +18,7 @@ The entire portfolio is made with only Vanilla HTML5 and CSS.
 
 ## Design & Planning
 
-The wireframe and sitemap for this project was created on figma [click here to view figma page](https://www.figma.com/file/rZXdfGsApolNkm1b2iYUX0/Portfolio-Wireframe?type=whiteboard&node-id=0%3A1&t=HzAj9ajFPSizoi3d-1) a local copy of the sitemap is also linked in the docs subdirectory. (Canvas submission only)
+The wireframe and sitemap for this project was created on figma [click here to view figma page](https://www.figma.com/file/rZXdfGsApolNkm1b2iYUX0/Portfolio-Wireframe?type=whiteboard&node-id=0%3A1&t=HzAj9ajFPSizoi3d-1) a local copy of the sitemap is also linked in the docs subdirectory.
 
 ### Sitemap
 
