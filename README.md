@@ -18,7 +18,7 @@ The entire portfolio is made with only Vanilla HTML5 and CSS.
 
 ## Design & Planning
 
-The wireframe and sitemap for this project was created on figma [click here to view figma page](https://www.figma.com/file/rZXdfGsApolNkm1b2iYUX0/Portfolio-Wireframe?type=whiteboard&node-id=0%3A1&t=HzAj9ajFPSizoi3d-1) a local copy of the sitemap is also linked <!-- insert link here -->
+The wireframe and sitemap for this project was created on figma [click here to view figma page](https://www.figma.com/file/rZXdfGsApolNkm1b2iYUX0/Portfolio-Wireframe?type=whiteboard&node-id=0%3A1&t=HzAj9ajFPSizoi3d-1) a local copy of the sitemap is also linked in the docs subdirectory. (Canvas submission only)
 
 ### Sitemap
 
@@ -28,7 +28,7 @@ The sitemap flow is very simple and designed for ease of access. All pages link 
 
 ## Wireframe
 
-As linked above, figma was used to design the wireframes of the website. 
+As linked above, figma was used to design the wireframes of the website. This is my first time using figma and I was able to learn alot about the tool over the course of drawing up my wireframe.
 
 ![Wireframe Overview](./docs/wireframe_overview.png)
 
@@ -40,9 +40,31 @@ I decided to keep a consistant style across all pages of my portfolio. The colou
 
 The basis of the website revolves around the basic layout of the home page. Each page would include a nav bar and contacts section at the bottom. The main content would be divided by background colour changes as the viewer scrolled.
 
-Unique to the home page would be the about me section and the skills section. I gave myself a rough overview of how I wanted these sections to look in conjunction with eachother.
+Unique to the home page would be the about me section and the skills section. I gave myself a rough overview of how I wanted these sections to look in conjunction with eachother. In the mobile version I wanted the logos in the skills section to be become a flex column.
 
 ### Projects Page
+
+![Project Page Wireframe](./docs/project_page_wireframe.png)
+
+In my original design for the projects page I wanted to create "windows" to other projects I have completed as an aspiring developer. I would use the CSS Flex layout to position them into a main projects section that would be the content of the page. As for this page and all following pages the navbar and contacts section would be reused to complete the page.
+
+### Resume Page
+
+![Resume Page Wireframe](./docs/resume_page_wireframe.png)
+
+The resume page is designed so that a preview of the resume would display on the right and then the download link on the left. Underneath would be a brief work experience section. Overall I choose this design as it simple and acheived the professional look I was aiming for.
+
+### Blogs Page
+
+![Blogs Page Wireframe](./docs/blogs_page_wireframe.png)
+
+The blogs page was designed to use similar tiles to the projects section but instead to link to seperate individual blog pages. They would contain images related to the post and a simple title and date. On a mobile viewport the tiles would collapse into a single column
+
+### Individual Blog Page
+
+![Individual Blog Page Wireframe](./docs/individual_blog_page_wireframe.png)
+
+The individual pages were designed to be simple to read on all viewports. A simple heading, followed by a sub-heading, image then content. Simple but impactful design.
 
 ## Website Overview & Features
 
