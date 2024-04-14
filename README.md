@@ -2,9 +2,11 @@
 
 Personal Portfolio for Coder Academy Assignment and my own growth as a web developer. [link to Github repo](https://github.com/Reyleth/T1A2-Portfolio)
 
+All material learnt throughtout weeks 1 and 2 of Coder Academy have been applied to demonstrate my ability.
+
 ## Purpose
 
-The purpose of this portfolio is to represent myself as a aspiring software developer in a professional manner. The layout has been designed with simplicity and professionalism in mind. The colour palette was also chosen for this reason. Black, dark blue, white and grey to demonstate simplicity and professionalism with orange sprinkled in as it is my favourite colour.
+The purpose of this portfolio is to represent myself as a aspiring software developer in a professional manner. The layout has been designed with simplicity and professionalism in mind.
 
 ## Target Audience
 
@@ -12,16 +14,35 @@ The target audience of this project is to prospective employers and anyone who i
 
 ## Tech Stack
 
-This entire portfolio is made with only Vanilla HTML/CSS. In future updates I would like to add javascript to make the blogs dynamic.
+The entire portfolio is made with only Vanilla HTML5 and CSS.
 
-## Sitemap
+## Design & Planning
 
 The wireframe and sitemap for this project was created on figma [click here to view figma page](https://www.figma.com/file/rZXdfGsApolNkm1b2iYUX0/Portfolio-Wireframe?type=whiteboard&node-id=0%3A1&t=HzAj9ajFPSizoi3d-1) a local copy of the sitemap is also linked <!-- insert link here -->
 
+### Sitemap
+
 ![Sitemap](./docs/sitemap.png)
 
-The 
+The sitemap flow is very simple and designed for ease of access. All pages link together making all information easily accessible. A navbar will be implemented to be the link between the four main pages. With individual blog posts being linked to in the main blogs page.
 
+## Wireframe
+
+As linked above, figma was used to design the wireframes of the website. 
+
+![Wireframe Overview](./docs/wireframe_overview.png)
+
+I decided to keep a consistant style across all pages of my portfolio. The colour palette was chosen to meet the purpose of the portfolio as a professional representation of myself. Black, dark blue, white and grey to demonstate simplicity and professionalism with orange sprinkled in as it is my favourite colour.
+
+### Home Page
+
+![Home Page Wireframe](./docs/home_page_wireframe.png)
+
+The basis of the website revolves around the basic layout of the home page. Each page would include a nav bar and contacts section at the bottom. The main content would be divided by background colour changes as the viewer scrolled.
+
+Unique to the home page would be the about me section and the skills section. I gave myself a rough overview of how I wanted these sections to look in conjunction with eachother.
+
+### Projects Page
 
 ## Website Overview & Features
 
@@ -59,7 +80,7 @@ The resume page is used as a way for the viewer to access my up to date resume. 
 
 The blog page also makes use of the "link tiles" I made and reuses the styling from the projects portion. Similarly to the projects page a CSS grid layout is used to show each blog post simply with a title and date posted. Each of these blog links connect to a deeper html file that displays the full blog with an image in each for viewer engagement. Currently this is all done through static webpages however in a future update I would like to add Javascript to make the blogs dynamic and gain the ability to add new blogs to the page.
 
-#### Individual Blog Posts
+### Individual Blog Posts
 
 <!-- image here -->
 
@@ -70,3 +91,5 @@ text goes here.
 <!-- contacts image here -->
 
 Last but not least is the contacts section that is located on the bottom of every html page. The function of this part of the document is for any viewer that reachs the bottom of the page. It contains further links to my social media accounts such as Github, linkedin, Discord and my Email. The design accounts for all screen sizes by using a flex layout and has a transform hover effect for a nice touch.
+
+## Future Updates
