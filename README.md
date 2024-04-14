@@ -68,49 +68,69 @@ The individual pages were designed to be simple to read on all viewports. A simp
 
 ## Website Overview & Features
 
-This document was designied with 3 main viewport width breakpoints in mind. Mobile, Tablet and Desktop. Each viewport type has some unique styling to accomodate. This portfolio contains four main pages and five blogs.
+This document was designied with 3 main viewport width breakpoints in mind. Mobile, Tablet and Desktop. Each viewport type has some unique styling to accomodate. This portfolio contains four main pages and five blogs. For the overall font I decided to use "Noto Serif" for the content and "Poppins" for the headings because they seemed to match my design goal. I sourced these fonts from <https://fonts.google.com/>.
+
+### Nav
+
+![Navbar image](./docs/imgs/navbar_image.png)
+
+The navbar is designed to be simple and sleek. Using a `display: sticky` to stay positioned at the top of the page no matter where the page is scrolled to. Each link features a hover effect to give interactivity to the page. This navbar will be consistent to the entire portfolio and will be the main point of navigation.
 
 ### Home
 
-<!-- hero image here -->
+![Hero image](./docs/imgs/hero_image.png)
 
-The home page is used as an overview displaying a large "hero section" as soon as it is loaded that jumps to the chase and introduces myself with an image, my name and who I am. I designed this to be simple yet bold and stand out to viewers entering the page. On mobile devices the 
+The home page is used as an overview displaying a large "hero section" as soon as it is loaded that jumps to the chase and introduces myself with an image, my name and who I am. I designed this to be simple yet bold and stand out to viewers entering the page. On mobile devices the profile picture will dissapear to give more space for the text to be prominent. 
 
-<!-- about me image here -->
+![About Me image](./docs/imgs/about_me_image.png)
 
-Following the hero section the about me section that serves as a more thorough introduction to myself and what drives me. 
+Following the hero section the about me section that serves as a more thorough introduction to myself and what drives me. It is a simple header to paragraph sections centered in the middle of the screen.
 
-<!-- skills image here -->
+![Skills icon image](./docs/imgs/skill_icon_image.png)
 
-This is followed by a skills section that shows the coding languages I am knowledgable in and brief paragraphs on my hard and soft skills. An API to my Github graph is used to interest viewers and also give attention to the document. I also added in my linkedin banner for further representation of myself.
+The About Me section is followed by a skills section that shows the coding languages I am knowledgable in and brief paragraphs on my hard and soft skills. 
+
+First is the languages I am knowledgeble in displayed in icons sourced from <https://fontawesome.com/>. I choose these because they match with the simple design I was going for.
+
+![First skills paragraph](./docs/imgs/skill_paragraph_1.png)
+
+Secondly I put a paragraph about my skills following by a link to my github if a potential viewer were to be interested further. An API to my Github graph is used to interest viewers and also give attention to the document. 
+
+![Second skills paragraph](./docs/imgs/skill_paragraph_2.png)
+
+For the last paragraph I also added in links to my linkedin account and my linkedin banner for further representation of myself. I used these icons and images to give more visuals to this section because I wanted it to stand out.
 
 ### Projects
 
-<!-- projects image here -->
+![Projects Page image](./docs/imgs/project_page_image.png)
 
 The projects page shows an overview of my completed projects thus far. The main feature of this page are the "link tiles" that each contain links to real Github pages on my Github account. The CSS grid layout is used to space out the tiles and a hover effect is used on the text for character and to stand out. The "Show All" button directs the viewer to my full list of Github repos on Github but may include a seperate html page for this purpose in future updates.
 
 ### Resume
 
-<!-- resume image here -->
+![Resume page image](./docs/imgs/resume_page_image.png)
 
-The resume page is used as a way for the viewer to access my up to date resume. I intended for the design to be quite simplistic with the preview image of the document displayed on the left side with the link on the right.
+The resume page is used as a way for the viewer to access my up to date resume. I intend for the design to be quite simplistic with the preview image of the document displayed on the left side with the link on the right. I reused the button from the previous page and repurposed it as a download link that will source my resume.pdf and download it through the viewer's browser.
+
+![Work Experience image](./docs/imgs/work_experience_image.png)
+
+Short but sweet work experience section is added below in a simple `<ul>` format.
 
 ### Blogs
 
-<!-- blogs image here -->
+![Blogs page image]()
 
 The blog page also makes use of the "link tiles" I made and reuses the styling from the projects portion. Similarly to the projects page a CSS grid layout is used to show each blog post simply with a title and date posted. Each of these blog links connect to a deeper html file that displays the full blog with an image in each for viewer engagement. Currently this is all done through static webpages however in a future update I would like to add Javascript to make the blogs dynamic and gain the ability to add new blogs to the page.
 
 ### Individual Blog Posts
 
-<!-- image here -->
+![Individual blog page image]()
 
-text goes here.
+The indivdual blogs have a simple design but stand out with their associated image. 
 
-### Contacts
+### Contact Section
 
-<!-- contacts image here -->
+![Contacts image]()
 
 Last but not least is the contacts section that is located on the bottom of every html page. The function of this part of the document is for any viewer that reachs the bottom of the page. It contains further links to my social media accounts such as Github, linkedin, Discord and my Email. The design accounts for all screen sizes by using a flex layout and has a transform hover effect for a nice touch.
 
