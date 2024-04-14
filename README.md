@@ -118,20 +118,47 @@ Short but sweet work experience section is added below in a simple `<ul>` format
 
 ### Blogs
 
-![Blogs page image]()
+![Blogs page image](./docs/imgs/blogs_page_image.png)
 
 The blog page also makes use of the "link tiles" I made and reuses the styling from the projects portion. Similarly to the projects page a CSS grid layout is used to show each blog post simply with a title and date posted. Each of these blog links connect to a deeper html file that displays the full blog with an image in each for viewer engagement. Currently this is all done through static webpages however in a future update I would like to add Javascript to make the blogs dynamic and gain the ability to add new blogs to the page.
 
 ### Individual Blog Posts
 
-![Individual blog page image]()
+![Individual blog page image](./docs/imgs/individual_blog_page_image.png)
 
 The indivdual blogs have a simple design but stand out with their associated image. 
 
 ### Contact Section
 
-![Contacts image]()
+![Contacts image](./docs/imgs/contact_section_image.png)
 
 Last but not least is the contacts section that is located on the bottom of every html page. The function of this part of the document is for any viewer that reachs the bottom of the page. It contains further links to my social media accounts such as Github, linkedin, Discord and my Email. The design accounts for all screen sizes by using a flex layout and has a transform hover effect for a nice touch.
 
+## Mobile, Tablet & Desktop Responsiveness
+
+This portfolio was made to be to relative scale so that most elements will adjust no matter the screensize. However as slight adjustments needed to be made in the CSS for my portfolio I implemented multiple media queries to set specific parameters to properties.
+
+### Mobile Settings:
+
+- Reduce navbar size to account for smaller screen
+- Remove profile picture
+- Change hero flexbox into a column direction
+- Adjust multiple sections to be more readable on small displays
+- Turn skills icons into a column
+- Reduce the size of the resume preview
+- Change the contacts flexbox into a column direction
+
+### Tablet Settings:
+
+- Navbar size increased
+- Padding adjusted
+- Resume page content is set to a row flex direction to display preview of the left
+
+### Desktop Settings:
+
+- Navbar sized increased
+- paragraph text increased 
+
 ## Future Updates
+
+In the future I would like to add Javascript functionality to the blogs section and have the ability to create new blog posts all from within the website. I have no currently ETA on when I will implement this.
