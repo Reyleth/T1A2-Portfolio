@@ -126,13 +126,13 @@ The blog page also makes use of the "link tiles" I made and reuses the styling f
 
 ![Individual blog page image](./docs/imgs/individual_blog_page_image.png)
 
-The indivdual blogs have a simple design but stand out with their associated image. 
+The indivdual blogs have a simple design but stand out with their associated image. These pages are all accessed via their associated tiles and all feature the nav and contacts components like the rest of the portfolio.
 
 ### Contact Section
 
 ![Contacts image](./docs/imgs/contact_section_image.png)
 
-Last but not least is the contacts section that is located on the bottom of every html page. The function of this part of the document is for any viewer that reachs the bottom of the page. It contains further links to my social media accounts such as Github, linkedin, Discord and my Email. The design accounts for all screen sizes by using a flex layout and has a transform hover effect for a nice touch.
+Last but not least is the contacts section that is located on the bottom of every html page. The function of this part of the document is for any viewer that reachs the bottom of the page. It contains further links to my social media accounts such as Github, linkedin, Discord and my Email. The design accounts for all screen sizes by using a flex layout and has a transform hover effect for user interactivity.
 
 ## Mobile, Tablet & Desktop Responsiveness
 
